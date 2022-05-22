@@ -1,0 +1,69 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Actividad MSI 2: Análisis de la petición</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>f8c1466b-bc80-40be-bdd4-929f17e177a6</md:uuid>
+</metadata>
+  <content>
+    <section id="id6657474">
+      <title>Actividad MSI 2: Análisis de la petición</title>
+      <para id="id6657482">En esta actividad se lleva a cabo el diagnóstico y análisis del cambio para dar respuesta a las peticiones de mantenimiento que han sido aceptadas en la actividad anterior.</para>
+      <para id="id6657492">Se analiza el alcance de la petición en lo referente a los sistemas de información afectados, valorando hasta que punto pueden ser modificados en función del ciclo de vida estimado para los mismos y determinando la necesidad de desviar la petición hacia el proceso Estudio de Viabilidad del Sistema (EVS) o Análisis del Sistema de Información (ASI), en función del impacto sobre los sistemas de información afectados.</para>
+      <para id="id6657496">El enfoque de este estudio varía según el tipo de mantenimiento, teniendo en cuenta que en el caso de un mantenimiento correctivo que implique un error crítico debe abordarse el cambio de forma inmediata sin profundizar en el origen del mismo. No obstante, una vez reanudado el servicio, es imprescindible analizar el problema y determinar cuál es la solución definitiva.</para>
+      <figure id="id7551429">
+        <media id="idm5693120" alt=""><image src="../../media/graphics1-3ddc.png" mime-type="image/png" height="116" width="433"/></media>
+      </figure>
+      <section id="id7551451">
+        <title>Tarea MSI 2.1: Verificación y Estudio de la Petición</title>
+        <para id="id7551459">Antes de iniciar el estudio de la petición, se verifica que la información registrada es correcta.</para>
+        <para id="id7551467">Para determinar su validez:</para>
+        <para id="id7551471">- Si se trata de un mantenimiento correctivo, se debe reproducir el problema.</para>
+        <para id="id7551478">- En el caso de un mantenimiento evolutivo, hay que comprobar que la petición es razonable o factible.</para>
+        <para id="id7551488">Una vez examinada la petición comienza su estudio, que será diferente en función del tipo de mantenimiento establecido:</para>
+        <para id="id6670871">- Si se trata de una petición de mantenimiento correctivo, y según el acuerdo de nivel de servicio establecido para los sistemas de información afectados, se evalúa hasta qué punto es crítico el problema. Así es posible determinar si la solución es a corto plazo, es decir, urgente o inmediata, o si es a medio o a largo plazo:</para>
+        <para id="id6670888">- Si el problema es crítico, su análisis y solución comienza inmediatamente con el fin de reanudar rápidamente el nivel de servicio. Sin embargo, este modo de actuación no elimina la necesidad de una revisión posterior del problema para valorar los posibles efectos secundarios, establecer una solución definitiva y actualizar todos los productos implicados.</para>
+        <para id="id6670905">- Si no es crítico, la petición se clasifica para proceder en la tarea siguiente a determinar cuál es la solución más adecuada.</para>
+        <para id="id6670916">- En el caso de un mantenimiento evolutivo se delimita su alcance determinando si se trata de una modificación a los sistemas de información inicialmente afectados o de una incorporación para cubrir nuevas funcionalidades no contempladas hasta el momento en dichos sistemas de información.</para>
+        <para id="id6670932">Productos</para>
+        <para id="id6670936">De entrada</para>
+        <para id="id6670940">· Catálogo de Peticiones (MSI 1.2)</para>
+        <para id="id6670948">· Acuerdo de Nivel de Servicio (IAS 8.3)</para>
+        <para id="id6670954">De salida</para>
+        <para id="id6670958">· Catálogo de Peticiones:</para>
+        <para id="id6670965">o Verificación de la Petición.</para>
+        <para id="id6670970">· Resultado del Estudio de la Petición</para>
+        <para id="id6670978">Prácticas</para>
+        <para id="id6670982">· Sesiones de trabajo</para>
+        <para id="id6670988">· Catalogación</para>
+        <para id="id6670995">Participantes</para>
+        <para id="id6670999">· Equipo de Mantenimiento.</para>
+      </section>
+      <section id="id6671006">
+        <title>Tarea MSI 2.2: Estudio de la Propuesta de Solución</title>
+        <para id="id6671014">A partir del catálogo de peticiones, y para cada una de ellas, se estima su alcance valorando la prioridad inicialmente asignada, de acuerdo a los requisitos planteados. A continuación, se analiza la relación entre peticiones. Se decide cuáles pueden abordarse de forma conjunta asignando, si procede, una prioridad global a los grupos identificados y determinando en qué secuencia deben implementarse los cambios.</para>
+        <para id="id6671029">Asimismo, es necesario concretar los requisitos solicitados para cada petición y analizar con más detalle los sistemas de información implicados, valorando las características de mantenimiento de los mismos y la cantidad de cambios sufridos desde su puesta en producción.</para>
+        <para id="id6671043">También se debe comprobar la existencia de otras peticiones en curso que afecten a los mismos sistemas de información, evaluando la repercusión que puede tener la realización de la petición de mantenimiento sobre estos cambios o desarrollos y analizar su convivencia. Además, se analiza el impacto que la modificación puede provocar en el entorno tecnológico y en los niveles de servicio inicialmente acordados para cada uno de los sistemas de información, valorando hasta que punto pueden verse comprometidos.</para>
+        <para id="id6671057">En el caso de una petición de mantenimiento evolutivo, se estudia cómo atenderla teniendo en cuenta la política de versiones vigente en ese momento. Si se trata de una incorporación o eliminación, se determina la necesidad de llevar a cabo algunas actividades del proceso Análisis del Sistema de Información de modo previo a la identificación de los elementos afectados.</para>
+        <para id="id6671072">Igualmente, se puede tomar la decisión de abordar el proceso Estudio de Viabilidad del Sistema atendiendo a los requisitos a cubrir, al alcance de la modificación, a las implicaciones en el entorno tecnológico, y al ciclo de vida estimado para los sistemas de información afectados, así como a la existencia de opciones de mercado más idóneas.</para>
+        <para id="id6671076">En el caso de peticiones de mantenimiento correctivo que hayan precisado de una solución de emergencia, no se darán por cerradas hasta que, o bien se compruebe que con dicha solución el sistema no se ha visto comprometido ni tampoco otros sistemas relacionados con él, o bien que después de haber aplicado una solución a corto/medio plazo y realizadas las pruebas pertinentes, el sistema conserva su integridad y operatividad. Por tanto, una vez que se ha reanudado el servicio, hay que realizar las restantes actividades para detectar el origen del problema y asegurar que los cambios introducidos no generan otros de mayor envergadura o comprometen el correcto funcionamiento de otros sistemas de información relacionados.</para>
+        <para id="id6598234">En cualquiera de las situaciones anteriores, se hace una estimación preliminar del esfuerzo requerido mediante los indicadores establecidos en el acuerdo de nivel de servicio para cada sistema de información, según la tecnología aplicada, naturaleza y tamaño del sistema de información y los tipos de lenguajes utilizados, bases de datos, etc.</para>
+        <para id="id6598250">Por último, si se considera necesario, hay que proponer alternativas de solución para dar respuesta de forma satisfactoria a los requisitos planteados o problemas detectados, determinando una fecha límite de implantación y un coste aproximado en función de la estimación realizada anteriormente. Se elige, junto con el usuario, la solución más adecuada, y se obtiene la aprobación o rechazo de la petición. En caso de rechazo, la petición se da por cerrada en el catálogo.</para>
+        <para id="id6598264">Productos</para>
+        <para id="id6598268">De entrada</para>
+        <para id="id6598272">· Plan de Mantenimiento (IAS 7.2)</para>
+        <para id="id6598278">· Acuerdo de Nivel de Servicio (IAS 8.3)</para>
+        <para id="id6598285">· Catálogo de Peticiones (MSI 2.1)</para>
+        <para id="id6598292">· Resultado del Estudio de la Petición (MSI 2.1)</para>
+        <para id="id6598300">De salida</para>
+        <para id="id6598304">· Propuesta de Solución</para>
+        <para id="id6598312">· Catálogo de Peticiones:</para>
+        <para id="id6598319">o Estudio del Impacto</para>
+        <para id="id6598323">o Aceptación / Rechazo de la Solución</para>
+        <para id="id6598328">Prácticas</para>
+        <para id="id6598333">· Sesiones de trabajo</para>
+        <para id="id6598339">· Catalogación</para>
+        <para id="id6598345">Participantes</para>
+        <para id="id6598349">· Responsable de Mantenimiento</para>
+        <para id="id6598356">· Equipo de Mantenimiento</para>
+      </section>
+    </section>
+  </content>
+</document>

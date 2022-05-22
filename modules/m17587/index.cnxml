@@ -1,0 +1,49 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Actividades del Proceso Eng.2 en ISO 15504/SPICE</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>aa6232a2-4d83-45d4-9b67-76fde0d63e06</md:uuid>
+</metadata>
+  <content>
+    <section id="id9234925">
+      <title>ENG.2.BP1: Determinación de los requisitos de mantenimiento</title>
+      <para id="id7339893">Se determinan los requisitos de mantenimiento del sistema y del software, se identifican los elementos del sistema y del software que deben ser mantenidos y las mejoras requeridas.</para>
+    </section>
+    <section id="id6343071">
+      <title>ENG.2.BP2: Desarrollo de la estrategia de mantenimiento</title>
+      <para id="id8868994">Se desarrolla una estrategia para gestionar las modificaciones, las migraciones y la retirada de los componentes del software o del sistema.</para>
+    </section>
+    <section id="id8868240">
+      <title>ENG.2.BP3: Analizamos los problemas de usuario y las mejoras</title>
+      <para id="id8710976">Se analizan los problemas de usuario y las peticiones de las mejoras requeridas, se evalúa el posible impacto de cada una de las posibles soluciones debido a las modificaciones que introducirían en sistema, en las interfaces de usuario o en los requisitos</para>
+    </section>
+    <section id="id2895084">
+      <title>ENG.2.BP4: Determinar las modificaciones para la nueva versión</title>
+      <para id="id9669296">Basándose en el análisis anterior se determinan que modificaciones deben ser aplicadas en el próximo sistema o actualización del software, documentando que aspectos del software, unidades u otros elementos del sistema serán cambiados y que pruebas se necesitan para garantizar el correcto funcionamiento de dicho cambios.</para>
+    </section>
+    <section id="id9083037">
+      <title>ENG.2.BP5: Implementación y pruebas de las modificaciones</title>
+      <para id="id6746972">Se utilizan otros procesos del software como el de implementación y pruebas para demostrar que el funcionamiento y la operatividad del sistema o el software actuales no se van a ver comprometidos por los cambios o mejoras previstas en el proyecto de mantenimiento.</para>
+    </section>
+    <section id="id6343864">
+      <title>ENG.2.BP6: Puesta en producción de la nueva versión del sistema</title>
+      <para id="id6745084">Se realiza la migración del sistema y el software con las modificaciones o mejoras introducidas en el entorno de trabajo del usuario, proporcionando:</para>
+      <list list-type="bulleted" id="id8994994">
+        <item>Operatividad en paralelo entre el sistema antiguo y el Nuevo</item>
+        <item>Formación adicional para los usuarios, siempre que se necesite</item>
+      </list>
+      <list list-type="bulleted" id="id7153238">
+        <item>Operaciones de soporte</item>
+        <item>Retirada del sistema antiguo</item>
+      </list>
+    </section>
+    <section id="id9128558">
+      <title>ENG.2.BP7: Retirada del sistema antiguo</title>
+      <para id="id8492388">Siguiendo la aprobación se retira el sistema antiguo del entorno productivo del usuario, proporcionado, siempre que sea necesario:</para>
+      <list list-type="bulleted" id="id8864038">
+        <item>Operatividad en paralelo</item>
+        <item>Conversión de los datos para su utilización en el nuevo sistema</item>
+        <item>Actualización de los archivos</item>
+        <item>Formación de los usuarios para el programa de conversión.</item>
+      </list>
+    </section>
+  </content>
+</document>

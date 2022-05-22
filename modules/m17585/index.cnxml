@@ -1,0 +1,78 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Actividad MSI 4: Seguimiento y evaluación de los cambios hasta la aceptación</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>85d4f92f-879e-43fd-9ee0-1d511ab7a99d</md:uuid>
+</metadata>
+  <content>
+    <section id="id13816817">
+      <title>Actividad MSI 4: Seguimiento y evaluación de los cambios hasta la aceptación</title>
+      <para id="id3870154">Se realiza el seguimiento de los cambios que se están llevando a cabo en los procesos de desarrollo, de acuerdo a los puntos de control del ciclo de vida del cambio establecidos en el plan de acción. Durante este seguimiento, se comprueba que sólo se han modificado los elementos que se ven afectados por el cambio y que se han realizado las pruebas correspondientes, especialmente las pruebas de integración y del sistema. Del resultado obtenido se hace una evaluación del cambio para la posterior aprobación.</para>
+      <para id="id13476921">Una vez finalizado el cambio en desarrollo, se realizan las pruebas de regresión que especificadas en la actividad anterior, comprobando que ningún sistema no modificado, pero con posibilidades de verse afectado, ha variado su comportamiento habitual. Se informa si ha habido incidencias con el fin de que se resuelvan del modo más conveniente. Se evalúan las pruebas.</para>
+      <para id="id3571999">La aprobación de la petición se realiza al finalizar las pruebas de regresión, y después de comprobar que todo lo que ha sido modificado o puede verse afectado por el cambio, funciona correctamente</para>
+      <para id="id13547883">Con el cierre de la petición se podrán incluir en el catálogo, si se considera oportuno, parte de la información obtenida durante el proceso de mantenimiento que pueda facilitar posteriores análisis.</para>
+      <figure id="id13281117">
+        <media id="idm19010656" alt=""><image src="../../media/graphics1-1be3.png" mime-type="image/png" height="129" width="432"/></media>
+      </figure>
+      <section id="id10094236">
+        <title>Tarea MSI 4.1: Seguimiento de los Cambios</title>
+        <para id="id3694040">Se hace el seguimiento del plan de acción de acuerdo a los puntos de control establecidos en la actividad anterior.</para>
+        <para id="id6280644">Se realiza el seguimiento de los cambios necesarios en los componentes de cada sistema de información afectado, así como en los productos asociados, siguiendo las actividades correspondientes a los procesos de Análisis, Diseño, Construcción e Implantación identificadas en la actividad anterior.</para>
+        <para id="id12421279">Asimismo, se lleva a cabo el control de la planificación establecida, que abarca los siguientes aspectos:</para>
+        <para id="id11161843">- Realizar la traza de los cambios que la petición ha provocado a lo largo de los procesos de desarrollo implicados.</para>
+        <para id="id10115847">- Verificar que se han realizado satisfactoriamente las pruebas unitarias, de integración y del sistema que se consideraron necesarias para los componentes a modificar.</para>
+        <para id="id3752507">- Comprobar que sólo se ha modificado lo establecido y, en caso contrario, justificar el motivo.</para>
+        <para id="id9811931">- Asegurar que se han actualizado los productos correspondientes.</para>
+        <para id="id10197650">- Llevar el control de los distintos desarrollos existentes en paralelo sobre un mismo componente, con el fin de coordinar las modificaciones incluidas en cada uno de ellos, y asegurar que en el paso a producción se implantan correctamente.</para>
+        <para id="id9323348">Productos</para>
+        <para id="id3284577">De entrada</para>
+        <para id="id11537947">· Producto Software en Desarrollo (externo, procedente de los procesos de desarrollo)</para>
+        <para id="id3548856">· Análisis de Impacto de los Cambios (MSI 3.1) (convivencia de distintas versiones)</para>
+        <para id="id9174510">· Plan de Acción para la Modificación (MSI 3.2)</para>
+        <para id="id3419343">De salida</para>
+        <para id="id5069226">· Evaluación del Cambio</para>
+        <para id="id8433136">Participantes</para>
+        <para id="id12663435">· Equipo de Mantenimiento</para>
+        <para id="id10561613">· Responsable de Mantenimiento</para>
+        <para id="id13280911">· Jefe de Proyecto</para>
+      </section>
+      <section id="id9994775">
+        <title>Tarea MSI 4.2: Realización de las Pruebas de Regresión</title>
+        <para id="id3886139">Una vez finalizadas las actividades correspondientes al proceso de construcción, se realizan las pruebas de regresión definidas en la actividad anterior con el objeto de asegurar que ningún sistema de información implicado en el cambio ve comprometido su funcionamiento normal.</para>
+        <para id="id12362269">En el caso de detectarse problemas, se elabora un informe que recoge las incidencias y se remite a quién proceda para que tome las medidas correctivas que considere oportunas.</para>
+        <para id="id8421991">Finalmente, una vez que el comportamiento es correcto, se documenta el resultado global de la evaluación de las pruebas que incluye la aprobación por parte del responsable de mantenimiento.</para>
+        <para id="id7674575">Productos</para>
+        <para id="id11464076">De entrada</para>
+        <para id="id4986575">· Plan de Pruebas de Regresión (MSI 3.3)</para>
+        <para id="id9398379">· Producto Software en Desarrollo (externo)</para>
+        <para id="id10709957">De salida</para>
+        <para id="id12212309">· Resultado de las Pruebas de Regresión</para>
+        <para id="id11305372">· Evaluación del Resultado de las Pruebas de Regresión</para>
+        <para id="id6950559">Prácticas</para>
+        <para id="id4688801">· Pruebas de Regresión</para>
+        <para id="id12308862">Participantes</para>
+        <para id="id7674284">· Responsable de Mantenimiento</para>
+        <para id="id10106792">· Equipo de Mantenimiento</para>
+        <para id="id8424682">· Jefe de Proyecto</para>
+      </section>
+      <section id="id3560469">
+        <title>Tarea MSI 4.3: Aprobación y Cierre de la Petición</title>
+        <para id="id13795310">Se aprueba formalmente la finalización de la petición de mantenimiento de acuerdo a los resultados obtenidos en la tarea anterior. Se actualiza el catálogo de peticiones registrando el cierre de la petición tratada.</para>
+        <para id="id12782225">Asimismo, para llevar un control del coste y al mismo tiempo evaluar la facilidad de mantenimiento, es conveniente registrar datos cuantitativos relativos al tiempo empleado en el análisis de la petición, en el estudio del impacto, resolución del cambio, recursos empleados, etc.</para>
+        <para id="id10042565">El registro de este tipo de información proporciona una base cuantitativa sobre la que tomar decisiones relativas a la eficacia de las técnicas y procedimientos de mantenimiento.</para>
+        <para id="id13283395">Productos</para>
+        <para id="id12468316">De entrada</para>
+        <para id="id5537338">· Catálogo de Peticiones (MSI 3.2)</para>
+        <para id="id11365827">· Plan de Pruebas de Regresión (MSI 3.3)</para>
+        <para id="id7673806">· Evaluación del Cambio (MSI 4.1)</para>
+        <para id="id9864464">· Evaluación del Resultado de las Pruebas de Regresión (MSI 4.2)</para>
+        <para id="id11191652">De salida</para>
+        <para id="id10208322">· Catálogo de Peticiones:</para>
+        <para id="id13578420">o Nueva versión y Aprobación</para>
+        <para id="id9632434">Prácticas</para>
+        <para id="id12620132">· Catalogación</para>
+        <para id="id9193386">Participantes</para>
+        <para id="id12200349">· Directores de los Usuarios</para>
+        <para id="id8294665">· Responsable de Mantenimiento</para>
+      </section>
+    </section>
+  </content>
+</document>

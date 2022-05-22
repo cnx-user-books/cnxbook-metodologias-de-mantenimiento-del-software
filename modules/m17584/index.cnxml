@@ -1,0 +1,76 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Actividad MSI 3: Preparación de la implementación de la modificación</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>ab12d0b7-b60e-4b30-80e7-83d095e7b82f</md:uuid>
+</metadata>
+  <content>
+    <section id="id3839058">
+      <title>Actividad MSI 3: Preparación de la implementación de la modificación</title>
+      <para id="id3707889">Una vez finalizado el estudio previo de la petición y aprobada su implementación, se pasa a identificar de forma detallada cada uno de los elementos afectados por el cambio mediante el análisis de impacto. Este análisis tiene como objetivo determinar qué parte del sistema de información se ve afectada, y en qué medida, dejando claramente definido y documentado qué componentes hay que modificar, tanto de software como de hardware.</para>
+      <para id="id9414804">Con el resultado de este análisis se dispone de los datos cuantitativos sobre los que aplicar los indicadores establecidos. Esto permitirá fijar un plan de acción, valorando la necesidad de realizar un reajuste de dichos indicadores, con el fin de cumplir el plazo máximo de entrega.</para>
+      <para id="id10492422">Una vez aceptado el plan de acción, se activan los correspondientes procesos de desarrollo para llevar a cabo la implementación de la solución. Al mismo tiempo, se especifican las pruebas de regresión con el fin de evitar el efecto onda en el sistema, una vez realizados los cambios.</para>
+      <figure id="id13574637">
+        <media id="idm8034304" alt=""><image src="../../media/graphics1-43c2.png" mime-type="image/png" height="145" width="432"/></media>
+      </figure>
+      <section id="id8910486">
+        <title>Tarea MSI 3.1: Identificación de Elementos Afectados</title>
+        <para id="id3643880">Se realiza un análisis detallado del impacto de la petición, con el fin de conocer el alcance real de la modificación en función del número, características y relaciones existentes entre los elementos afectados. De esta manera se puede establecer una secuencia y planificación correcta del desarrollo de los cambios, valorando los recursos necesarios para llevarlo a cabo. En el caso de un mantenimiento evolutivo que implique una incorporación o eliminación, el alcance real de la modificación se determina después de realizar el proceso Análisis del Sistema de Información, según se indicó en la actividad anterior.</para>
+        <para id="id13442832">Por tanto, a partir del resultado del estudio obtenido en la actividad anterior, se identifica cada sistema de información afectado creando argumentos de búsqueda para determinar qué elementos y en qué medida están implicados en el proceso de cambio.</para>
+        <para id="id11724276">En este análisis quedarán reflejados, de la forma que se considere más conveniente, los elementos de la infraestructura tecnológica (hardware, software de base, comunicaciones, etc.) y los elementos asociados a los productos software implicados en cada petición (modelos, pantallas, informes, módulos, programas fuentes, programas objetos, JCL´s, archivos de datos, manuales de usuario, manuales de explotación...), así como las referencias cruzadas. La asociación de elementos a cada petición, permitirá el control de la gestión del cambio sobre un mismo elemento.</para>
+        <para id="id3653056">Productos</para>
+        <para id="id4991415">De entrada</para>
+        <para id="id3558542">· Catálogo de Peticiones (MSI 2.2)</para>
+        <para id="id5541249">· Propuesta de Solución (MSI 2.2)</para>
+        <para id="id4765749">De salida</para>
+        <para id="id3322527">· Catálogo de Peticiones:</para>
+        <para id="id6034304">o Elementos Afectados</para>
+        <para id="id9096809">· Análisis de Impacto de los Cambios</para>
+        <para id="id3451336">Prácticas</para>
+        <para id="id12849171">· Catalogación</para>
+        <para id="id3821783">· Análisis de Impacto</para>
+        <para id="id11967361">Participantes</para>
+        <para id="id11106733">· Equipo de Mantenimiento.</para>
+        <para id="id9752526">· Jefe de Proyecto</para>
+      </section>
+      <section id="id11309336">
+        <title>Tarea MSI 3.2: Establecimiento del Plan de Acción</title>
+        <para id="id12728597">Se identifican las actividades y tareas de los procesos de desarrollo Estudio de Viabilidad del Sistema, Análisis del Sistema de Información, Diseño del Sistema de Información, Construcción del Sistema de Información e Implantación y Aceptación del Sistema que es preciso realizar, en función de las características, complejidad y alcance de la petición estudiada, así como del plan de mantenimiento establecido para los sistemas de información implicados.</para>
+        <para id="id13441258">Una vez delimitado el alcance del plan de acción, se aplican los indicadores establecidos para el conjunto de componentes afectados, realizando los reajustes que oportunos. Se establece un plan de trabajo en el que se determina el coste asociado, los plazos estimados para su implementación con las fechas de comienzo y fin, y la composición del equipo de trabajo inicial necesario, teniendo en cuenta el alcance de la modificación, el nivel de esfuerzo requerido y el plan de trabajo establecido.</para>
+        <para id="id11553737">Finalmente, se definen puntos de control que permiten hacer un seguimiento del plan de trabajo durante la implementación de la modificación, determinando con qué frecuencia y en que situaciones se llevará a cabo.</para>
+        <para id="id12916388">Una vez aprobado el plan de acción y asignados los recursos, se lleva a cabo su inicio.</para>
+        <para id="id9345720">Productos</para>
+        <para id="id3701315">De entrada</para>
+        <para id="id5522520">· Plan de Mantenimiento (IAS 7.2)</para>
+        <para id="id10938722">· Propuesta de Solución (MSI 2.2)</para>
+        <para id="id7119761">· Análisis de Impacto de los Cambios (MSI 3.1)</para>
+        <para id="id9019839">· Catálogo de Peticiones (MSI 3.1)</para>
+        <para id="id8930238">De salida</para>
+        <para id="id3553752">· Catálogo de Peticiones:</para>
+        <para id="id11748246">o Actividades y Tareas de los Procesos de Desarrollo a Realizar</para>
+        <para id="id12930394">· Plan de Acción para la Modificación</para>
+        <para id="id9902785">Técnicas</para>
+        <para id="id3409839">· Planificación</para>
+        <para id="id12777460">Prácticas</para>
+        <para id="id4751723">· Catalogación</para>
+        <para id="id11152422">Participantes</para>
+        <para id="id12648981">· Responsable de Mantenimiento</para>
+        <para id="id10470661">· Equipo de Mantenimiento</para>
+        <para id="id11419656">· Jefe de Proyecto</para>
+      </section>
+      <section id="id3419722">
+        <title>Tarea MSI 3.3: Especificación del Plan de Pruebas de Regresión</title>
+        <para id="id7971283">Las pruebas de regresión tratan de eliminar el llamado efecto onda, es decir, que los cambios provocados por una petición no introduzcan un comportamiento no deseado o errores adicionales en otros componentes no modificados. Por tanto, es necesario comprobar que los cambios que se lleven a cabo en los componentes afectados, no produzcan estos efectos sobre el mismo u otros componentes.</para>
+        <para id="id3814348">Con este objetivo se deben especificar los casos de prueba en función de las relaciones existentes entre los distintos componentes identificados en la tarea Identificación de Elementos Afectados (MSI 3.1). De esta forma, los casos de prueba aseguran que la nueva versión satisface las necesidades planteadas al considerar, a su vez, los sistemas de información que no han sido modificados pero están directamente relacionados con ellos y, en consecuencia, pueden verse afectados.</para>
+        <para id="id10985470">Productos</para>
+        <para id="id9577994">De entrada</para>
+        <para id="id8458217">· Propuesta de Solución (MSI 2.2)</para>
+        <para id="id11496016">· Análisis de Impacto de los Cambios (MSI 3.1)</para>
+        <para id="id10041357">· Catálogo de Peticiones (MSI 3.2)</para>
+        <para id="id3845208">De salida</para>
+        <para id="id13449445">· Plan de Pruebas de Regresión</para>
+        <para id="id11820527">Participantes</para>
+        <para id="id9866609">· Equipo de Mantenimiento</para>
+        <para id="id12904906">· Jefe de Proyecto</para>
+      </section>
+    </section>
+  </content>
+</document>

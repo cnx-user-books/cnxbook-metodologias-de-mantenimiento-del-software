@@ -1,0 +1,50 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Actividad MSI 1: Registro de la petición</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>552dd9e7-26b0-47a0-ba3c-71752ca346f5</md:uuid>
+</metadata>
+  <content>
+    <section id="id5392416">
+      <title>Actividad MSI1: Registro de la petición</title>
+      <para id="id5392424">El objetivo de esta actividad es establecer un sistema estandarizado de registro de información para las peticiones de mantenimiento, con el fin de controlar y canalizar los cambios propuestos por un usuario o cliente, mejorando el flujo de trabajo de la organización y proporcionando una gestión efectiva del mantenimiento.</para>
+      <para id="id5392439">Es importante asignar responsabilidades para evitar la realización de cambios que beneficien a un usuario, pero que produzcan un impacto negativo sobre otros muchos. Por tanto, es necesario que todas las peticiones de mantenimiento sean presentadas de una forma estandarizada, que permita su clasificación y facilite la identificación del tipo de mantenimiento requerido.</para>
+      <para id="id5392456">Una vez que la petición ha sido registrada, que ha determinado el tipo de mantenimiento y los sistemas de información a los que inicialmente puede afectar, se comprueba su viabilidad, de acuerdo a las prestaciones de mantenimiento establecidas para dichos sistemas de información.</para>
+      <figure id="id5392475">
+        <media id="idm18901504" alt=""><image src="../../media/graphics1-d2bb.png" mime-type="image/png" height="80" width="433"/></media>
+      </figure>
+      <section id="id5392497">
+        <title>Tarea MSI 1.1: Registro de la Petición</title>
+        <para id="id5392505">Esta tarea tiene como objetivo registrar las peticiones que los usuarios solicitan con motivo de la detección de un problema o por la necesidad de una mejora. Se crea un catálogo que constituye un medio para la comunicación entre el usuario o cliente y el responsable de mantenimiento.</para>
+        <para id="id5392518">Este catálogo servirá de base para abordar, en tareas posteriores, el análisis de la petición, realizar la modificación solicitada y proporcionar datos estadísticos sobre peticiones recibidas o atendidas.</para>
+        <para id="id5392530">La información que debe incluir dicho registro se determina de acuerdo a las normas o estándares existentes en la organización para la recepción de peticiones de mantenimiento. En el caso de un error se debe incluir una completa descripción de las circunstancias que llevaron al fallo, adjuntando datos de entrada, listados, o cualquier otro material de soporte que se considere oportuno. Para peticiones de mejora se debe remitir una especificación de los requisitos a contemplar.</para>
+        <para id="id5392544">En cualquier caso, será imprescindible recoger la identificación, origen y tipo de petición, asignarle una prioridad inicial e incorporar una descripción, lo más precisa posible, que facilite su posterior análisis.</para>
+        <para id="id5392556">Productos</para>
+        <para id="id5392560">De entrada</para>
+        <para id="id5392564">· Petición de Mantenimiento (externo)</para>
+        <para id="id5392572">De salida</para>
+        <para id="id5392576">· Catálogo de Peticiones</para>
+        <para id="id5392583">Prácticas</para>
+        <para id="id5392587">· Catalogación</para>
+        <para id="id5392594">Participantes</para>
+        <para id="id5392598">· Responsable del Mantenimiento</para>
+      </section>
+      <section id="id5392605">
+        <title>Tarea MSI 1.2: Asignación de la Petición</title>
+        <para id="id5392613">En esta tarea se determina el tipo de mantenimiento requerido por la petición catalogada, teniendo en cuenta toda la información que se ha registrado en la tarea anterior. Hay que identificar también los sistemas de información inicialmente afectados por petición.</para>
+        <para id="id5392626">A continuación, se comprueba que el servicio de mantenimiento, definido en el plan de mantenimiento para el sistema de información, cubre el tipo de mantenimiento que requiere la petición. Sobre la base de estos criterios, se acepta o rechaza la petición y se notifica a quién corresponda.</para>
+        <para id="id5392640">Si la petición es aceptada, se determina de quién es la responsabilidad de atender la solicitud para proceder a su estudio posterior.</para>
+        <para id="id5392649">Productos</para>
+        <para id="id5392653">De entrada</para>
+        <para id="id5392657">· Plan de Mantenimiento (IAS 7.2)</para>
+        <para id="id5392664">· Catálogo de Peticiones (MSI 1.1)</para>
+        <para id="id4698699">De salida</para>
+        <para id="id4698704">· Catálogo de Peticiones:</para>
+        <para id="id4698711">o Aceptación / Rechazo de la Petición</para>
+        <para id="id4698716">o Asignación de Responsable</para>
+        <para id="id4698722">Prácticas</para>
+        <para id="id4698726">· Catalogación</para>
+        <para id="id4698732">Participantes</para>
+        <para id="id4698736">· Responsable del Mantenimiento</para>
+      </section>
+    </section>
+  </content>
+</document>

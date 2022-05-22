@@ -1,0 +1,18 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>El Proceso Eng.2 en ISO 15504/SPICE</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>f449950c-b9dd-4a43-9dff-746f300b5128</md:uuid>
+</metadata>
+  <content>
+    <section id="id11518000">
+      <title>EL PROCESO ENG.2 EN ISO 15504/SPICE</title>
+      <para id="id11079537">El propósito del Proceso Eng.2<footnote id="idp10029680">ISO/IEC 15504-1:1998. Information Technology-Software Process Assesment, 1998</footnote> Mantenimiento de Software y sistemas es gestionar las peticiones de modificaciones, migraciones y retirada de los componentes de un sistema a petición de los usuarios. El origen de una petición podría ser descubrir un problema o la necesidad de una mejora o adaptación. El objetivo es modificar y/o retirar un sistema y/o un software preservando la integridad de los procesos operativos. Como resultado de la implementación del proceso se obtendrá:</para>
+      <list list-type="bulleted" id="id11687723">
+        <item>Se desarrollará una estrategia de mantenimiento para gestionar las modificaciones, migraciones y cambios de los componentes de acuerdo a una estrategia de edición de versiones.</item>
+        <item>Se actualizarán los documentos de especificación y diseño y los sistemas de prueba.</item>
+        <item>Se desarrollarán nuevos componentes modificados del sistema con sus pruebas asociadas para demostrar que los requisitos del sistema se siguen verificando</item>
+        <item>Las mejoras del sistema y del software se introducirán en el entorno productivo del cliente.</item>
+      </list>
+      <para id="id12345976">El sistema y el software serán retirados de uso de una manera controlada que minimice el impacto sobre la actividad productiva del usuario.</para>
+    </section>
+  </content>
+</document>

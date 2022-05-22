@@ -1,0 +1,33 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Proceso MSI de Métrica Versión 3</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>36688bcf-5056-43d3-b78b-2737d12530fd</md:uuid>
+</metadata>
+  <content>
+    <section id="id10301730">
+      <title>Proceso MSI de métrica versión 3</title>
+      <para id="id10403027">El objetivo de este proceso es la obtención de una nueva versión de un sistema de información desarrollado con MÉTRICA Versión 3<footnote id="idm9558032">MÉTRICA versión 3. 2001, Madrid: Ministerio de Administraciones Públicas. Secretaría de Estado para la Administración Pública. Consejo Superior de Informática.</footnote> ó Versión 2, a partir de las peticiones de mantenimiento que los usuarios realizan con motivo de un problema detectado en el sistema, o por la necesidad de una mejora del mismo.</para>
+      <para id="id11153146">En este proceso se realiza el registro de las peticiones de mantenimiento recibidas, con el fin de llevar el control de las mismas y de proporcionar, si fuera necesario, datos estadísticos de peticiones recibidas o atendidas en un determinado periodo, sistemas que se han visto afectados por los cambios, en qué medida y el tiempo empleado en la resolución de dichos cambios. Es recomendable, por lo tanto, llevar un catálogo de peticiones de mantenimiento sobre los sistemas de información, en el que se registren una serie de datos que nos permitan disponer de la información antes mencionada.</para>
+      <para id="id11184460">En el momento en el que se registra la petición, se procede a diagnosticar de qué tipo de mantenimiento se trata. Atendiendo a los fines, podemos establecer los siguientes tipos de mantenimiento:</para>
+      <list list-type="bulleted" id="id11042598">
+        <item>Correctivo: son aquellos cambios precisos para corregir errores del producto software.</item>
+        <item>Evolutivo: son las incorporaciones, modificaciones y eliminaciones necesarias en un producto software para cubrir la expansión o cambio en las necesidades del usuario.</item>
+        <item>Adaptativo: son las modificaciones que afectan a los entornos en los que el sistema opera, por ejemplo, cambios de configuración del hardware, software de base, gestores de base de datos, comunicaciones, etc.</item>
+        <item>Perfectivo: son las acciones llevadas a cabo para mejorar la calidad interna de los sistemas en cualquiera de sus aspectos: reestructuración del código, definición más clara del sistema y optimización del rendimiento y eficiencia.</item>
+      </list>
+      <para id="id3142404">Estos dos últimos tipos quedan fuera del ámbito de MÉTRICA Versión 3 ya que requieren actividades y perfiles distintos de los del proceso de desarrollo.</para>
+      <para id="id11967197">Una vez registrada la petición e identificado el tipo de mantenimiento y su origen, se determina de quién es la responsabilidad de atender la petición. En el supuesto de que la petición sea remitida, se registra en el catálogo de peticiones de mantenimiento y continua el proceso. La petición puede ser denegada. En este caso, se notifica al usuario y acaba el proceso.</para>
+      <para id="id10979022">Posteriormente, según se trate de un mantenimiento correctivo o evolutivo, se verifica y reproduce el problema, o se estudia la viabilidad del cambio propuesto por el usuario. En ambos casos se estudia el alcance de la modificación. Hay que analizar las alternativas de solución identificando, según el tipo de mantenimiento de que se trate, cuál es la más adecuada. El plazo y urgencia de la solución a la petición se establece de acuerdo con el estudio anterior.</para>
+      <para id="id10147330">La definición de la solución incluye el estudio del impacto de la solución propuesta para la petición en los sistemas de información afectados. Mediante el análisis de dicho estudio, la persona encargada del Proceso de Mantenimiento valora el esfuerzo y coste necesario para la implementación de la modificación.</para>
+      <para id="id11403364">Las tareas de los procesos de desarrollo que va a ser necesario realizar son determinadas en función de los componentes del sistema actual afectados por la modificación. Estas tareas pertenecen a actividades de los procesos Análisis, Diseño, Construcción e Implantación.</para>
+      <para id="id11982465">Por último, y antes de la aceptación del usuario, es preciso establecer un plan de pruebas de regresión que asegure la integridad del sistema de información afectado.</para>
+      <para id="id8906746">La mejor forma de mantener el coste de mantenimiento bajo control es una gestión del Proceso de Mantenimiento efectiva y comprometida. Por lo tanto, es necesario registrar de forma disciplinada los cambios realizados en los sistemas de información y en su documentación. Esto repercutirá directamente en la mayo r calidad de los sistemas resultantes.</para>
+      <para id="id10954836">La estructura propuesta para el Proceso de Mantenimiento de MÉTRICA Versión 3 comprende las siguientes actividades:</para>
+      <figure id="id11513897">
+        <media id="idm3422400" alt=""><image src="../../media/graphics1-e943.png" mime-type="image/png" height="72" width="439"/></media>
+      </figure>
+      <figure id="id11139958">
+        <media id="idp2998272" alt=""><image src="../../media/graphics2.png" mime-type="image/png" height="406" width="590"/></media>
+      </figure>
+    </section>
+  </content>
+</document>

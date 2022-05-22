@@ -1,0 +1,15 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Estándares de Mantenimiento del Software</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5ff0fe02-1889-4315-aa46-3aa5486a7724</md:uuid>
+</metadata>
+  <content>
+    <section id="id10630528">
+      <title>ESTÁNDARES DE MANTENIMIENTO</title>
+      <para id="id7873843">Existen numerosos estándares que abordan el problema de la realización correcta de la fase de mantenimiento del software. Los principales son: </para>
+      <list list-type="bulleted" id="id9974615">
+        <item>Métrica V3<footnote id="idp2934688">MÉTRICA versión 3. 2001, Madrid: Ministerio de Administraciones Públicas. Secretaría de Estado para la Administración Pública. Consejo Superior de Informática.</footnote>. Por ser la metodología de referencia en España.</item>
+        <item>ISO/IEC 15504<footnote id="idm10297504">ISO/IEC 15504-1:1998. Information Technology-Software Process Assesment, 1998</footnote>. Por ser de los modelos de procesos el de carácter más internacional y, en cierta manera, más europeo.</item>
+      </list>
+    </section>
+  </content>
+</document>
